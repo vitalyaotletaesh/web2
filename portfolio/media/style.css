@@ -1,0 +1,259 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.clear{
+    clear:both;
+}
+
+.nav-menu{
+    width: 100%;
+    background-color: #0f0f0f;
+}
+
+.logo img{
+    margin-top: 5px;
+    margin-left: 300px;
+    width: 50px;
+    height: 50px;
+}
+
+.logo{
+    float: left;
+    width: 50%;
+    height: 60px;
+}
+
+.logo2{
+    display: none;
+}
+
+.buttons{
+    float: left;
+    box-sizing: border-box;
+    height: 60px;
+    width: 50%;
+    padding-top: 20px;
+}
+
+.buttons a{
+    padding-left: 40px;
+}
+
+.bg-menu{
+    background-image: url('img/background.webp');
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.main-menu{
+    width: 100%;
+    height: 200px;
+    background-color: #0f0f0f;
+}
+
+.main-menu .buttons2{
+    padding-top: 90px;
+    box-sizing: border-box;
+    width: fit-content;
+    float: none;
+    margin: auto;
+}
+
+.main-menu .buttons2 a{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.logo-menu{
+    height: 200px;
+    background-color: #ffffc0;
+    text-align: center;
+}
+
+.logo-menu img{
+    padding-top: 75px;
+    height: 50px;
+    width: 50px;
+    padding-left: 20px;
+}
+
+.about{
+    box-sizing: border-box;
+    height: 200px;
+    text-align: center;
+    font-size: 60px;
+    background-color: #0f0f0f;
+    color: white;
+    padding-top: 70px;
+}
+
+.main-content{
+    background-color: #123;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+}
+
+.row{
+    width: 60%;
+    padding-top: 100px;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.text{
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+}
+
+.main-logo{
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.text2{
+    box-sizing: border-box;
+    float: right;
+    width: 50%;
+}
+
+.main-logo2{
+    box-sizing: border-box;
+    float:left;
+    width: 50%;
+    text-align: center;
+}
+
+@media screen and (min-width: 801px) and (max-width: 1300px) {
+    .logo{
+        display: none;
+    }
+
+    .buttons{
+        box-sizing: border-box;
+        width: fit-content;
+        float: none;
+        margin: auto;
+    }
+    .buttons a{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .row{
+        width: 100%;
+        padding: 100px 100px 0px 100px;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 800px) {
+    .logo{
+        float: left;
+        width: 50%;
+        height: 60px;
+    }
+
+    .logo img{
+        margin-top: 15px;
+        margin-left: 30px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .logo2{
+        box-sizing: border-box;
+        display: inline;
+        float: right;
+        height: 60px;
+        margin-right: 20px;
+        color: white;
+        padding-top: 15px;
+    }
+
+    .buttons{
+        display: none;
+    }
+
+    .row{
+        width: 100%;
+        padding: 30px 50px 0px 50px;
+    }
+
+    .header{
+        text-align: center;
+    }
+
+    .text{
+        box-sizing: border-box;
+        float: none;
+        width: 100%;
+    }
+    
+    .main-logo{
+        box-sizing: border-box;
+        float: none;
+        width: 100%;
+    }
+
+    .main-logo img{
+        width: 200px;
+        height: 200px;
+    }
+    
+    .text2{
+        box-sizing: border-box;
+        float: none;
+        width: 100%;
+    }
+    
+    .main-logo2{
+        box-sizing: border-box;
+        float: none;
+        width: 100%;
+    }
+
+    .main-logo2 img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .logo-menu img{
+        padding-top: 25px;
+        height: 30px;
+        width: 30px;
+        padding-left: 5px;
+    }
+
+    .main-menu{
+        height: 80px;
+    }
+
+    .main-menu .buttons2{
+        padding-top: 30px;
+    }
+
+    .logo-menu{
+        height: 80px;
+    }
+    
+    .logo-menu img{
+        padding-top: 25px;
+    }
+    
+    .about{
+        height: 100px;
+        font-size: 30px;
+        padding-top: 30px;
+    }
+}
