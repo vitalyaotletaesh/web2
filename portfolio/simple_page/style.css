@@ -1,0 +1,141 @@
+body{
+    background-color:#29ff;
+    margin: 25px 0px 15px 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover{
+    color: red;
+}
+
+.clear{
+    clear: both;
+}
+
+.container{
+    width: 60%;
+    margin: auto;
+}
+
+.header{
+    background-color:#9999ff;
+}
+
+.content{
+    margin-top: 5px;
+    width: 100%;
+    background-color:  #b3b3ff;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.title{
+    float: right;
+    padding: 50px 100px 100px 0px;
+}
+
+.title p:first-child{
+    font-size: 25px;
+}
+
+.title p:last-child{
+    font-size: 18px;
+}
+
+.menu{
+    padding: 25px 0px;
+    text-align: center;
+    background-color: #e6e6ff;
+}
+
+.menu a{
+    margin-left: 50px;
+}
+
+.left-menu{
+    width: 25%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.block{
+   padding-bottom: 25px;
+}
+
+.main-menu-title{
+    padding-left: 25px;
+}
+
+.block-menu-title{
+    padding-left: 25px;
+}
+
+.data{
+    width: 75%;
+    float: right;
+}
+
+.menu-item{
+    margin-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.block-item{
+    margin-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.gallery{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.main-content{
+    width: 100%;
+    margin: auto;
+    padding: 0px 25px;
+    box-sizing: border-box;
+}
+
+.subscription{
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    padding-right: 10px;
+}
+
+.other{
+    padding-left: 10px;
+    float: right;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.read-more{
+    padding: 5px;
+    color: #000;
+    background-color: greenyellow;
+    cursor: pointer;
+}
+
+.read-more:hover{
+    transform: scale(1.1, 1.1)
+}
+
+.footer{
+    height: 50px;
+    background-color: green;
+    text-align: center;
+}
+
+.footer-content{
+    height: 25px;
+    padding: 12px 0px;
+}

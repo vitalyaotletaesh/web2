@@ -1,0 +1,90 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+img{
+    width: 427.5px;
+    height: 100%;
+}
+
+.logo{
+    width: 30px;
+    height: 30px;
+}
+
+.container{
+    width: 1800px;
+    margin: 15px auto 15px auto;
+}
+
+.row{
+    margin-bottom: 5px;
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.item{
+    flex-grow: 1;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    text-align: center;
+    height: 300px;
+    margin-right: 30px;
+    overflow: hidden;
+}
+
+.last-item{
+    flex-grow: 1;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    text-align: center;
+    height: 300px;
+    overflow: hidden;
+}
+
+.text-row{
+    margin-bottom: 30px;
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.text-item{
+    display: flex;
+    flex-grow: 1;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    text-align: center;
+    height: 30px;
+    margin-right: 30px;
+}
+
+.last-text-item{
+    display: flex;
+    flex-grow: 1;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    text-align: center;
+    height: 30px;
+}
+
+.logo{
+    flex-grow: 1;
+    text-align: left;
+}
+
+.name{
+    flex-grow: 5;
+    text-align: left;
+}
+
+.like{
+    flex-grow: 2;
+}
+
+.watch{
+    flex-grow: 2;
+}
+

@@ -1,0 +1,47 @@
+body{
+    background-color: #ffe6e6;
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.clear{
+    clear: both;
+}
+
+.content{
+    width: 90%;
+    height: 100%;
+}
+
+.nav-link, .nav-item{
+    color: black !important;
+}
+
+.left-side{
+    margin-top: 100px;
+    float: left;
+    width: 50%;
+}
+
+.hw{
+    margin: auto;
+    margin-top: 10px;
+    border: 1px solid #407;
+    width: 50%;
+    text-align: center;
+}
+
+.hw:hover{
+    cursor: pointer;
+    background-color: #ffe6a0;
+}
+
+.right-side{
+    margin-top: 100px;
+    float: right;
+    width: 50%;
+}

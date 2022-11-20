@@ -1,0 +1,249 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+div{
+    box-sizing: border-box;
+}
+
+.clear{
+    clear: both;
+}
+
+.bg_blue{
+    background-color: rgb(239, 255, 255);
+}
+
+.section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section .body_element{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.section.menu{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.menu{
+    text-align: center;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.menu .list_menu li{
+    display: inline-block;
+    margin: 10px;
+}
+
+.menu .list_menu li a{
+    color: #000;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.main{
+    background-image: url('img/background.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-top: 113px;
+    height: 1000px;
+}
+
+.main .logo, .main .tizer{
+    text-align: center;
+}
+
+.main .tizer{
+    margin: 70px 0px;
+}
+
+.main .tizer p{
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+}
+
+.main .slogan p{
+    text-align: center;
+    font-size: 42px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.p_header{
+    font-size: 54px;
+    color: #000;
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+}
+
+.about .tizer_about .t_about{
+    float: left;
+    width: 33.33333%;
+    padding: 0px 20px;
+    
+}
+
+.about .tizer_about .t_about .t_about_header{
+    font-size: 54px;
+    padding: 20px 0px;
+    border-bottom: 3px solid black;
+    margin-bottom: 20px;
+}
+
+.about .tradicii_about{
+    margin-top: 80px;
+}
+
+.about .tradicii_about .tra_about{
+    float: left;
+    width: 530px;
+    background-color: rgb(239, 255, 255);
+    margin: 0px 20px;
+    height: 400px;
+}
+
+.about .tradicii_about .tra_about .img_tradicii_about{
+    background-image: url('img/tradicii.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+.about .tradicii_about .tra_about .tra_about_header{
+    font-size: 54px;
+    padding: 30px;
+    font-weight: bold;
+    color: #000;
+}
+
+.about .tradicii_about .tra_about .tra_about_text{
+    line-height: 24px;
+    font-size: 25px;
+    padding: 0px 30px 30px 30px;
+    color: #000;
+}
+
+.product .product_element{
+    width: 25%;
+    height: 350px;
+    float: left;
+    padding: 25px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.product .product_element img{
+    width: 256px;
+    height: 200px;
+}
+
+.rait{
+    display: inline-block;
+}
+
+.stars{
+    display: inline-block;
+    color: gold;
+    font-size: 26px;
+}
+
+.video .body_element{
+    text-align: center;
+}
+
+.slider{
+    width: 1140px;
+    overflow: hidden;
+    float: left;
+}
+
+.slider-line{
+    width: 100%;
+    display: flex;
+    position: relative;
+    left: 0px;
+    transition: all ease 1s;
+    text-align: center;
+}
+
+.gallery img{
+    width: 570px;
+    height: 800px;
+}
+
+.slider-next{
+    margin-top: 3px;
+    position: inline-block;
+    text-align: center;
+}
+
+.slider-next-btn{
+    border: none;
+    font-size: 30px;
+    color: #000;
+    background-color: #fff;
+}
+
+.slider-next-btn:hover{
+    cursor: pointer;
+}
+
+.map, .form{
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+.form{
+    color: #000;
+    padding-left: 30px;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.form label{
+    margin-top: 5px;
+    display: block;
+}
+
+.form input{
+    width: 200px;
+    height: 30px;
+    padding-left: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.btn_submit{
+    background-color: #ccc;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    font-size: 25px;
+    border-radius: 10px;
+    width: 210px;
+}
+
+.btn_submit:hover{
+    cursor: pointer;
+}
+
+.footer{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
