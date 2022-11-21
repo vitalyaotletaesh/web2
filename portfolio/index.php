@@ -44,10 +44,14 @@
                 </a>
             </div>
             <div class="hw">
-                4
+                <a href="flex/index.html">
+                    Flex
+                </a>
             </div>
             <div class="hw">
-                5
+            <a href="media/index.html">
+                    Media
+                </a>
             </div>
         </div>
         <div class="right-side">
