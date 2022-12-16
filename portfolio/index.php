@@ -56,10 +56,14 @@
         </div>
         <div class="right-side">
         <div class="hw">
-                1
+                <a href="#">
+                    slider
+                </a>
             </div>
             <div class="hw">
-                2
+                <a href="js/index.html">
+                    js
+                </a>
             </div>
             <div class="hw">
                 3

@@ -152,3 +152,158 @@ function f_task10() {
         temp2.innerHTML = str
     }
 }
+
+// task11
+let elem11 = document.getElementById('btn11');
+elem11.addEventListener('click', f_task11);
+
+function f_task11() {
+    var temp = document.getElementById('cb11');
+    if (temp.checked == false){
+        temp.checked = true;
+    } else{
+        temp.checked = false;
+    }
+}
+
+// task12
+let elem12 = document.getElementById('task12');
+elem12.addEventListener('click', f_task12);
+
+function f_task12() {
+    let temp = document.getElementsByClassName('cb12');
+    for (var i = 0; i < temp.length; i++){
+        temp[i].checked = true;
+    }
+}
+
+// task13
+let elem13 = []
+elem13[0] = document.getElementById('rb13_1');
+elem13[1] = document.getElementById('rb13_2');
+elem13[2] = document.getElementById('rb13_3');
+elem13[3] = document.getElementById('rb13_4');
+for (var i = 0; i < elem13.length; i++){
+    elem13[i].addEventListener('click', f_task13);
+}
+function f_task13() {
+    var temp = document.getElementById('result13');
+    for (var i = 0; i < elem13.length; i++){
+        if (elem13[i].checked == true){
+            var str = elem13[i].value;
+            temp.innerHTML = str;
+        }
+    }
+}
+
+// task14
+let elem14 = document.getElementById('cb14');
+elem14.addEventListener('change', f_task14);
+function f_task14() {
+    var temp = document.getElementById('inp14');
+    if (elem14.checked == true){
+        temp.style.visibility = 'hidden';
+    } else{
+        temp.style.visibility = 'visible';
+    }
+}
+
+// task15
+let elem15_1 = document.getElementById('cb15_1');
+let elem15_2 = document.getElementById('cb15_2');
+elem15_1.addEventListener('change', f_task15_1);
+elem15_2.addEventListener('change', f_task15_2);
+function f_task15_1() {
+    var temp = document.getElementById('result15_1');
+    if (elem15_1.checked == true){
+        temp.style.visibility = 'hidden';
+    } else{
+        temp.style.visibility = 'visible';
+    }
+}
+
+function f_task15_2() {
+    var temp = document.getElementById('result15_2');
+    if (elem15_2.checked == true){
+        temp.style.visibility = 'hidden';
+    } else{
+        temp.style.visibility = 'visible';
+    }
+}
+
+// task16
+let elem16_1 = document.getElementById('cb16_1');
+let elem16_2 = document.getElementById('cb16_2');
+let elem16_3 = document.getElementById('cb16_3');
+elem16_1.addEventListener('change', f_task16_1);
+elem16_2.addEventListener('change', f_task16_2);
+elem16_3.addEventListener('change', f_task16_3);
+function f_task16_1() {
+    var temp = document.getElementById('result16');
+    if (elem16_1.checked == true){
+        temp.style.textDecoration = 'line-through';
+    } else{
+        temp.style.textDecoration = 'none';
+    }
+}
+
+function f_task16_2() {
+    var temp = document.getElementById('result16');
+    if (elem16_2.checked == true){
+        temp.style.fontWeight = 'bold';
+    } else{
+        temp.style.fontWeight = 'normal';
+    }
+}
+
+function f_task16_3() {
+    var temp = document.getElementById('result16');
+    if (elem16_3.checked == true){
+        temp.style.color = 'red';
+    } else{
+        temp.style.color = 'black';
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+// task20
+let elem20_1 = document.getElementById('select1');
+let elem20_2 = document.getElementById('select2');
+let elem20_3 = document.getElementById('inp20_1');
+elem20_3.addEventListener('focus', f_task20_2);
+elem20_3.addEventListener('blur', f_task20);
+
+kurs = [64.88, 1/64.88]
+
+function f_task20() {
+    if (elem20_1.value == elem20_2.value){
+        if (elem20_2.value == 'Руб'){
+            elem20_2.value = '$';
+        } else{
+            elem20_2.value = 'Руб';
+        }
+    }
+    if (elem20_1.value == '$'){
+        var temp = document.getElementById('inp20_2');
+        var money = elem20_3.value;
+        temp.value = money*kurs[0];
+    } else{
+        var temp = document.getElementById('inp20_2');
+        var money = elem20_3.value;
+        temp.value = money*kurs[1];
+    }
+}
+
+function f_task20_2() {
+    var temp = document.getElementById('inp20_2');
+    temp.value = '';
+}
