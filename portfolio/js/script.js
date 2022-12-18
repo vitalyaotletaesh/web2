@@ -265,15 +265,66 @@ function f_task16_3() {
     }
 }
 
+// task17
+let elem17_1 = document.getElementById('inp17');
+let elem17_2 = document.getElementById('ul17');
+let elem17_3 = document.getElementById('task17');
+elem17_3.addEventListener('click', f_task17);
 
+function f_task17() {
+    str = elem17_1.value;
+    arr = str.split(',');
+    var number = 1;
+    arr.forEach(element => {
+        var li = document.createElement("li");
+        li.appendChild(document.createTextNode(element));
+        li.setAttribute("id", "li" + number);
+        elem17_2.appendChild(li); 
+        number++;
+    });
+}
 
+// task19
+let o1 = document.getElementById('o1');
+let o2 = document.getElementById('o2');
+let o3 = document.getElementById('o3');
+let o4 = document.getElementById('o4');
+let o5 = document.getElementById('o5');
+let o6 = document.getElementById('o6');
+let s2 = document.getElementById('select19_1')
+o1.addEventListener('click', f1);
+o2.addEventListener('click', f2);
+o3.addEventListener('click', f3);
 
-
-
-
-
-
-
+function f1() {
+    s2.getElementsByTagName('option');
+    alert('qwe');
+    for (i = 0; i < s2.length; i++){
+        if (i !== 0){
+            s2[i].setAttribute('style', 'display:none;');
+        } else{
+            s2[i].setAttribute('style', 'display:block;');
+        }
+    }
+}
+function f2(){
+    for (i = 0; i < s2.length; i++){
+        if (i !== 1){
+            s2[i].setAttribute('style', 'display:none;');
+        } else{
+            s2[i].setAttribute('style', 'display:block;');
+        }
+    }
+}
+function f3(){
+    for (i = 0; i < s2.length; i++){
+        if (i !== 2){
+            s2[i].setAttribute('style', 'display:none;');
+        } else{
+            s2[i].setAttribute('style', 'display:block;');
+        }
+    }
+}
 
 // task20
 let elem20_1 = document.getElementById('select1');

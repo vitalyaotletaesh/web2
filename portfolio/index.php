@@ -66,7 +66,9 @@
                 </a>
             </div>
             <div class="hw">
-                3
+                <a href="kursach/index.html">
+                    Курсач
+                </a>
             </div>
             <div class="hw">
                 4

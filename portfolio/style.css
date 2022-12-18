@@ -1,5 +1,4 @@
 body{
-    background-color: #ffe6e6;
     margin: 0px;
 }
 
@@ -12,9 +11,13 @@ a{
     clear: both;
 }
 
+.header{
+    background-color:grey;
+}
+
 .content{
     width: 90%;
-    height: 100%;
+    margin: auto;
 }
 
 .nav-link, .nav-item{

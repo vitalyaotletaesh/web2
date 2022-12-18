@@ -18,7 +18,7 @@ body{
 .content{
     width: 1500px;
     margin: auto;
-    background-color: pink;
+    background-color: rgb(110, 104, 106);
 }
 
 .row{
@@ -38,3 +38,4 @@ body{
     width: 150px;
     margin-bottom: 20px;
 }
+
